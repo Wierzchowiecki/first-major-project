@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Twoje dane</title>
+</head>
+<body>
+    <h2>Twoje dane logowania</h2>
+    <p><strong>Login:</strong> {{ login }}</p>
+    <p><strong>Hasło (jednorazowe):</strong> {{ password }}</p>
+    <a href="{{ url_for('login') }}">Przejdź do logowania</a>
+</body>
+</html>
